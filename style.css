@@ -1,18 +1,18 @@
-
-  .marquee-right {
-    animation: marquee-right 50s linear infinite;
-    white-space: nowrap;
-    color: aliceblue;
+ol a {
+    display: inline-block;  /* Allows padding/width */
+    color: white;
+    background: #4f46e5;   /* Indigo-600 */
+    padding: 6px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+    margin-top: 6px;
   }
   
-  @keyframes marquee-right {
-    0% {
-      transform: translateX(0); /* Start position */
-    }
-    100% {
-      transform: translateX(100%); /* Move fully to the right */
-    }
-  }
-  .marquee-right:hover {
-    animation-play-state: paused;
+  ol a:hover {
+    background: #4338ca;   /* Darker indigo */
+    transform: translateY(-1px); /* Slight lift */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }

@@ -1,0 +1,32 @@
+.angkor-regular {
+    font-family: "Angkor", serif;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 50px auto;
+      text-align: center;
+  }
+  .angkor-regular ol {
+    padding: 0;
+    list-style-position: inside;
+  }
+  .angkor-regular li {
+    margin: 8px 0;
+    padding: 4px;
+  }
+  ol li{
+    color: aliceblue;
+}
+body{
+    background-color: black;
+}
+span a{
+    color: #F7374F;
+    text-decoration: none;
+    text-align:center ;
+}
+span a:hover{
+    color: aliceblue;
+}  
