@@ -1,0 +1,20 @@
+
+  .marquee-right {
+    animation: marquee-right 50s linear infinite;
+    white-space: nowrap;
+    color: aliceblue;
+    font-family: Khmer Pen-Surin Regular;
+
+  }
+  
+  @keyframes marquee-right {
+    0% {
+      transform: translateX(0); /* Start position */
+    }
+    100% {
+      transform: translateX(100%); /* Move fully to the right */
+    }
+  }
+  .marquee-right:hover {
+    animation-play-state: paused;
+  }
