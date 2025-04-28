@@ -3,8 +3,6 @@
     animation: marquee-right 50s linear infinite;
     white-space: nowrap;
     color: aliceblue;
-    font-family: Khmer Pen-Surin Regular;
-
   }
   
   @keyframes marquee-right {
