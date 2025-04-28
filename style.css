@@ -8,7 +8,7 @@ ol a {
     font-weight: 500;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: all 0.3s;
-    margin-top: 6px;
+    margin:6px;
   }
   
   ol a:hover {
